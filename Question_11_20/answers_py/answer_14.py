@@ -15,7 +15,7 @@ def BGR2GRAY(img):
 
 # different filter
 def different_filter(img, K_size=3):
-	H, W, C = img.shape
+	H, W = img.shape
 
 	# Zero padding
 	pad = K_size // 2
